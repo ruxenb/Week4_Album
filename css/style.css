@@ -59,6 +59,7 @@ figure {
 @media screen and (min-width: 772px) {
     .grid {
         grid-template-columns: 1fr 1fr; /* Two columns */
+        border-radius: 0;
     }
 
     .grid figure:last-child {
@@ -70,6 +71,7 @@ figure {
 @media screen and (min-width: 992px) {
     .grid {
         grid-template-columns: 1fr 1fr; /* Two columns */
+        border-radius: 0;
     }
 
     .grid figure:nth-child(3n) {
